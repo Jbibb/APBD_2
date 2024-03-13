@@ -7,11 +7,11 @@ Console.WriteLine("#3 Hello, World!");
 
 static double getAvg(int[] array)
 {
-    double res = 0;
+    double result = 0;
     for (int i = 0; i < array.Length; i++)
-        res += array[i];
-    res /= array.Length;
-    return res;
+        result += array[i];
+    result /= array.Length;
+    return result;
 }
 
 static double getMax(int[] array)
